@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Button, Stack, Typography } from "@mui/material";
 import styled from "@emotion/styled";
 import heroImage from "../assets/icons/heroImage.svg";
+import HeroStats from "./HeroStats";
 
 const HeroCallToAction = styled(Stack)({
   maxWidth: "450px",
@@ -28,13 +29,14 @@ const ChallengeButton = styled(Button)({
 
 const HeroSection = () => {
   return (
+    <>
     <Stack
       flexDirection="row"
       alignItems="center"
       justifyContent="space-evenly"
       width="100%"
-      sx={{color:'white',backgroundColor:'#003145'}}
-     
+      sx={{color:'white',backgroundColor:'#003145',padding:'2rem'}}
+      
     >
       <HeroCallToAction>
         <Typography
@@ -59,6 +61,8 @@ const HeroSection = () => {
         <img src={heroImage} />
       </HeroImage>
     </Stack>
+    <HeroStats/>
+          </>
   );
 };
 
