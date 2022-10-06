@@ -19,8 +19,8 @@ const HeroStats = () => {
           backgroundColor: "#002A3B",
           flexDirection: "row",
           justifyContent: "space-around",
-          minWidth:'900px',
-          maxWidth:'950px'
+          maxWidth:'950px',
+          gap:'2rem'
         }}
         >
       {heroStats.map((stat) => {

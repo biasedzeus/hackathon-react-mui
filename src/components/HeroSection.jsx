@@ -34,7 +34,6 @@ const HeroSection = () => {
       flexDirection="row"
       alignItems="center"
       justifyContent="space-evenly"
-      width="100%"
       sx={{color:'white',backgroundColor:'#003145',padding:'2rem'}}
       
     >

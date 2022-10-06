@@ -5,6 +5,7 @@ import styled from '@emotion/styled';
 // components
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
+import AboutSection from '../components/AboutSection';
 
 const HomeContainer = styled(Stack)({
     width:'100%',
@@ -16,6 +17,7 @@ const Home = () => {
     <HomeContainer>
         <Header/>
         <HeroSection/>
+        <AboutSection/>
     </HomeContainer>
   )
 }
